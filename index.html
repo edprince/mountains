@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Raleway" rel="stylesheet">
+    <link href='css/main.css' type='text/css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class='wrapper' id='wrapper'>
+    </div>
+    <div id='title_div'>
+      <h1 class='absolute_center' id='title'>Discovering Global Climbing Communities</h1>
+      <button id='explore' class='absolute_center center'>Explore</button>
+    </div>
+    <div id='main_screen' class='invisible'>
+      <iframe
+          src="https://embed.kumu.io/915be3d5049bde99f7eaaa4bc617b4da"
+            width="100%" height="800" frameborder="0"></iframe>
+    </div>
+    <div class='modal absolute_center' id='intro_modal'>
+      <h1>Discovering Global Climbing Communities</h1>
+      <p>This project is designed to identify groups of climbers on
+      a global scale. By storing data about climbers and their ascents,
+      a visual map is created to demonstrate how these small groups
+      form of climbers of similar abilities, tastes in mountains,
+      tastes in regions. This allows us to see previously hidden
+      connections amongst some of the worlds greatest mountaineers.</p>
+      <p>The top left controls allow you to change clustering
+      variables, allowing the data to be presented in multiple ways.
+      Try changing the clustering to 'range'.
+      <p id='close_intro_modal' class='modal_close'>Close</p>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src='js/app.js' type='text/javascript'></script>
+</html>
