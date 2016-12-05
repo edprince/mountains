@@ -15,5 +15,6 @@ function insertData() {
   //Insert kumu
   $('#main_screen').show();
   $('#intro_modal').show();
+  $('#kumu').height('100vh');
   //Load controls
 }
