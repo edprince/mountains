@@ -15,6 +15,11 @@ function insertData() {
   //Insert kumu
   $('#main_screen').show();
   $('#intro_modal').show();
+  if ($('#intro_modal').is(':visible')) {
+    $('#kumu').click(() => {
+      $('#intro_modal').hide();
+    })
+  }
   $('#kumu').height('100vh');
   //Load controls
 }
